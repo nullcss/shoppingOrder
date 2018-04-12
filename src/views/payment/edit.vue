@@ -103,7 +103,9 @@
 </script>
 
 <style lang="less" scoped>
-
+.addAddress{
+    height: 100vh;
+}
 .addressInfo{
     .item{
         background: #fff;

@@ -26,9 +26,7 @@
       };
     },
     components: {
-
       headTop
-
     },
     computed: {
         addressList() {

@@ -1,7 +1,7 @@
 <template>
   <div class="payment">
     <head-top goBack="true" headerTitle="支付页面" color="blue"></head-top>
-    <section class="address" @click="$router.push('/choose')">
+    <section class="address" @click="push">
       <div class="left fr">
         <span class="location_icon">
           <i class="iconfont">&#xe70e;</i>
@@ -169,6 +169,9 @@
         }
     },
     methods: {
+      push() {
+        this.$router.push("/choose")
+      },
       showPayFun() {
         this.showPay = !this.showPay;
       },

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <transition :name="animate">
-        <router-view></router-view>
+        <router-view class="router"></router-view>
     </transition>
     
   </div>
@@ -50,6 +50,11 @@ export default {
 #app {
   width: 100%;
   height: 100%;
+}
+.router{
+   position: absolute;
+     width: 100%;
+     top: 0;
 }
 
 // 切换动画  右侧切入

@@ -16,8 +16,10 @@ Vue.config.productionTip = false
 Vue.prototype.back = (route) => {
     route.animate = 2
     history.go(-1)
+    this.isBack = true
   }
 
+  
 /* 工具 */
 import './utils/rem.js'
 
