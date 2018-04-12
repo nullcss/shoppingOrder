@@ -1,6 +1,7 @@
 # dudu
 
-> 嘟嘟科技
+> 简单的订单确认流程   
+https://nullcss.github.io/shoppingOrder/dist/index.html#/main
 
 ## Build Setup
 
